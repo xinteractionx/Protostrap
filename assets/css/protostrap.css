@@ -1,0 +1,76 @@
+      body {
+        padding: 0;
+        padding-bottom: 40px;
+      }
+     .container {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .tabbar {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        height: 44px;
+
+      }
+      .tabbar-inner {
+        width: 320px;
+        margin: auto;
+      }
+
+       .tabbar-tab {
+        color: #ccc;
+        display: block;
+        float: left;
+        height: 44px;
+        padding: 0;
+        text-align: center;
+
+      }
+      .tabbar-tab.active{
+        color: #11aef7;
+        background-color: #444;
+      }
+      .tabbar-inner div{
+        width: 80px;
+      }
+      .tabbar-inner.fivetabs div{
+        width: 62px;
+      }
+        .tab-icon {
+            font-size: 1.8em;
+            line-height: 1em;
+            vertical-align: bottom;
+        }
+
+        .tabbar-badge {
+            bottom: 20px;
+            float: left;
+            margin-left: -160px;
+            padding-left: 50%;
+            position: fixed;
+        }
+
+        .tabbar-badge.tab-1 {
+            left: 32px;
+        }
+        .tabbar-badge.tab-1.fivetabs{
+            left: 32px;
+        }
+
+        .tabbar-badge.tab-2.fivetabs{
+            left: 94px;
+        }
+
+        .tabbar-badge.tab-3.fivetabs{
+            left: 156px;
+        }
+
+        .tabbar-badge.tab-4.fivetabs{
+            left: 218px;
+        }
+
+        .tabbar-badge.tab-5.fivetabs{
+            left: 280px;
+        }
